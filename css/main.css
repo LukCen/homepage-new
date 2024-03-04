@@ -15,6 +15,7 @@ nav {
   height: 5rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: #131515;
   padding: 0.25rem 1rem;
 }
@@ -36,17 +37,43 @@ div.nav-button-container {
 
 .btn {
   min-width: min-content;
-  display: block;
+  height: fit-content;
+  display: flex;
   padding: 0.25rem 0.5rem;
   color: #fffafa;
   border-radius: 0.5rem;
   transition: scale 0.2s ease-in;
   font-size: 1.2rem;
   border: 2px solid #fffafa;
+  background: inherit;
   backface-visibility: hidden;
+  cursor: pointer;
 }
 .btn:hover {
   scale: 1.1;
+}
+
+#menu-mobile {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu-mobile:active {
+  transform: scaleX(1.4);
+}
+
+@media (max-width: 978px) {
+  .nav-button-container {
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    flex: unset !important;
+    right: 0;
+    top: 5rem;
+    background: #131515;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

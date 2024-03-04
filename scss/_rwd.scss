@@ -1,0 +1,16 @@
+@use './navbar.scss' as navbar;
+$width-sm: 757px;
+$width-md: 978px;
+$width-lg: 1200px;
+
+@media (max-width: 978px) {
+  .nav-button-container {
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    flex: unset !important;
+    right: 0;
+    top: navbar.$navbar-height;
+    background: navbar.$color-nav-bg;
+  }
+}
