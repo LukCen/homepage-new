@@ -4,6 +4,10 @@ $width-md: 978px;
 $width-lg: 1200px;
 
 @media (max-width: 978px) {
+  #menu-mobile {
+    display: flex;
+  }
+
   .nav-button-container {
     position: absolute;
     display: flex !important;
