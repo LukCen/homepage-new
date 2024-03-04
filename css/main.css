@@ -70,9 +70,12 @@ div.nav-button-container {
     display: flex !important;
     flex-direction: column;
     flex: unset !important;
-    right: 0;
+    right: -100%;
     top: 5rem;
     background: #131515;
+  }
+  .active {
+    right: 0;
   }
 }
 
