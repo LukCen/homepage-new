@@ -1,3 +1,5 @@
+$color-body-bg: #2F2F2F;
+
 html * {
   font-size: 10px;
   box-sizing: border-box;
@@ -9,4 +11,8 @@ html * {
 
 a {
   text-decoration: none;
+}
+
+body {
+  background: $color-body-bg;
 }
