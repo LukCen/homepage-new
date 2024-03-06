@@ -3,6 +3,8 @@ section.welcome {
   height: 1000px;
   background: url('../assets/img/welcome-bg.jpg');
   filter: brightness(.8);
+  background-size: cover;
+  background-repeat: no-repeat;
 
   & .welcome_greeting {
     position: absolute;
