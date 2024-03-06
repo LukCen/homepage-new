@@ -26,6 +26,7 @@ div.nav-button-container {
   flex: 1 1 50%;
   padding: 1px;
   height: max-content;
+  z-index: 12;
 }
 
 .btn {
@@ -55,6 +56,6 @@ div.nav-button-container {
   align-items: center;
 
   &:active {
-    transform: scaleX(1.4)
+    transform: scaleX(1.1)
   }
 }
