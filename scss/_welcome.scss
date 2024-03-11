@@ -2,7 +2,7 @@ section.welcome {
   display: flex;
   min-height: 32rem;
   width: 100%;
-
+  column-gap: 1.6rem;
 }
 
 figure,
@@ -18,7 +18,7 @@ figure {
 
 figcaption,
 figcaption * {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: #5d5d5d;
 
   & a {
@@ -29,4 +29,12 @@ figcaption * {
       color: #4E4E4E;
     }
   }
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  row-gap: 1.8rem;
 }

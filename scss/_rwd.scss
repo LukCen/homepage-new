@@ -3,7 +3,7 @@ $width-sm: 757px;
 $width-md: 978px;
 $width-lg: 1200px;
 
-@media (max-width: 978px) {
+@media (max-width: $width-lg) {
   #menu-mobile {
     display: flex;
   }
@@ -20,5 +20,9 @@ $width-lg: 1200px;
 
   .active {
     right: 0;
+  }
+
+  section.welcome {
+    flex-direction: column;
   }
 }
