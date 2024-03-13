@@ -1,0 +1,22 @@
+section.skills {
+  display: flex;
+  height: 500px;
+  column-gap: 1px;
+
+  & ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 1px;
+    flex-basis: 50%;
+
+    & li {
+      background: red;
+      width: 100%;
+      flex-basis: 100%;
+      position: relative;
+      border-radius: .8rem;
+    }
+  }
+}
