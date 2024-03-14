@@ -1,5 +1,8 @@
-html * {
+:root {
   font-size: 10px;
+}
+
+html * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -28,18 +31,18 @@ main {
 }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   font-weight: 700;
 }
 
 h2,
 h2 * {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 500;
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 130%;
 }
@@ -177,11 +180,15 @@ section.skills ul {
   flex-basis: 50%;
 }
 section.skills ul li {
-  background: red;
+  display: flex;
   width: 100%;
-  flex-basis: 100%;
-  position: relative;
+  flex-basis: 5rem;
+  color: #FFF;
+  align-items: center;
+  box-shadow: 0 0 10px -3px #c3c4c7;
   border-radius: 0.8rem;
+  height: fit-content;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

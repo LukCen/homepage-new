@@ -12,11 +12,15 @@ section.skills {
     flex-basis: 50%;
 
     & li {
-      background: red;
+      display: flex;
       width: 100%;
-      flex-basis: 100%;
-      position: relative;
+      flex-basis: 5rem;
+      color: #FFF;
+      align-items: center;
+      box-shadow: 0 0 10px -3px #c3c4c7;
       border-radius: .8rem;
+      height: fit-content;
+      justify-content: center;
     }
   }
 }
