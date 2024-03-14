@@ -162,7 +162,8 @@ figcaption * a:hover {
   .active {
     right: 0;
   }
-  section.welcome {
+  section.welcome,
+  section.skills {
     flex-direction: column;
   }
 }
