@@ -36,26 +36,3 @@
     width: auto;
   }
 }
-
-button.move-slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 60%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-
-  &.prev {
-    left: 0;
-    transform: translateX(50px)
-  }
-
-  &.next {
-    right: 0;
-    transform: translateX(50px)
-  }
-}

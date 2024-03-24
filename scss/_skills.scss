@@ -1,7 +1,14 @@
 section.skills {
-  display: flex;
-  height: 500px;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: 2fr 10fr;
   column-gap: 1px;
+
+  & h3 {
+    text-align: center;
+    grid-column: 1 / 4;
+    color: #FFF;
+  }
 
   & ul {
     display: flex;
@@ -17,8 +24,6 @@ section.skills {
       flex-basis: 5rem;
       color: #FFF;
       align-items: center;
-      box-shadow: 0 0 10px -3px #c3c4c7;
-      border-radius: .8rem;
       height: fit-content;
       justify-content: center;
     }

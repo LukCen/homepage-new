@@ -3,6 +3,12 @@ $width-sm: 757px;
 $width-md: 978px;
 $width-lg: 1200px;
 
+@media (max-width: $width-sm) {
+  main {
+    max-width: 100vw;
+  }
+}
+
 @media (max-width: $width-lg) {
   #menu-mobile {
     display: flex;
@@ -25,5 +31,9 @@ $width-lg: 1200px;
   section.welcome,
   section.skills {
     flex-direction: column;
+  }
+
+  .portfolio-container {
+    max-width: 100%;
   }
 }
