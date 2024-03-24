@@ -7,7 +7,6 @@ section.skills {
   & h3 {
     text-align: center;
     grid-column: 1 / 4;
-    color: #FFF;
   }
 
   & ul {
@@ -22,7 +21,6 @@ section.skills {
       display: flex;
       width: 100%;
       flex-basis: 5rem;
-      color: #FFF;
       align-items: center;
       height: fit-content;
       justify-content: center;

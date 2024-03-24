@@ -1,75 +1,3 @@
-:root {
-  font-size: 10px;
-}
-
-html * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: "Montserrat", Helvetica, sans-serif;
-  font-optical-sizing: auto;
-}
-
-a {
-  text-decoration: none;
-}
-
-body {
-  background: #2F2F2F;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  overflow-x: hidden;
-  row-gap: 1.6rem;
-}
-
-header {
-  width: 100%;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  max-width: 1200px;
-  height: fit-content;
-  row-gap: 1.6rem;
-  overflow-x: hidden;
-  padding: 1rem 1.5rem;
-}
-
-h1 {
-  font-size: 3.6rem;
-  font-weight: 700;
-}
-
-h2,
-h2 * {
-  font-size: 2.4rem;
-  font-weight: 500;
-}
-
-h3 {
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-p {
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 130%;
-}
-
-ul {
-  list-style: none;
-}
-
-section {
-  box-shadow: 0 0 10px -5px #FFF;
-  border-radius: 1rem;
-  padding: 0.5rem;
-  min-height: fit-content;
-}
-
 nav {
   height: 5rem;
   display: flex;
@@ -122,6 +50,84 @@ div.nav-button-container {
 }
 #menu-mobile:active {
   transform: scaleX(1.1);
+}
+
+:root {
+  font-size: 10px;
+}
+
+html * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-optical-sizing: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #2F2F2F;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  row-gap: 1.6rem;
+}
+
+header {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  height: fit-content;
+  row-gap: 1.6rem;
+  overflow-x: hidden;
+  padding: 1rem 1.5rem;
+}
+
+main {
+  color: #F0F0F0;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+h2,
+h2 * {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+h3,
+dt {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p,
+dd {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  box-shadow: 0 0 10px -5px #FFF;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  min-height: fit-content;
 }
 
 section.welcome {
@@ -203,7 +209,6 @@ section.skills {
 section.skills h3 {
   text-align: center;
   grid-column: 1/4;
-  color: #FFF;
 }
 section.skills ul {
   display: flex;
@@ -217,7 +222,6 @@ section.skills ul li {
   display: flex;
   width: 100%;
   flex-basis: 5rem;
-  color: #FFF;
   align-items: center;
   height: fit-content;
   justify-content: center;
@@ -256,6 +260,22 @@ section.skills ul li {
 .slider-item img {
   height: 100%;
   width: auto;
+}
+
+section.experience {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1.6rem;
+}
+
+div.experience-item {
+  width: 400px;
+  max-width: 500px;
+}
+
+div.experience-item * {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

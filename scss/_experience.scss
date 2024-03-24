@@ -1,0 +1,15 @@
+section.experience {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1.6rem;
+}
+
+div.experience-item {
+  width: 400px;
+  max-width: 500px
+}
+
+div.experience-item * {
+  text-align: center;
+}
