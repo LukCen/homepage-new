@@ -1,0 +1,18 @@
+@use './navbar' as nav;
+
+.contact p {
+  width: 50%;
+  text-align: center;
+}
+
+a.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: nav.$color-text;
+  text-decoration: underline;
+
+  &:hover {
+    color: #1d8cee;
+  }
+}

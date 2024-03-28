@@ -113,7 +113,8 @@ dt {
 }
 
 p,
-dd {
+dd,
+section.contact a {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 130%;
@@ -262,7 +263,8 @@ section.skills ul li {
   width: auto;
 }
 
-section.experience {
+section.experience,
+section.contact {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -276,6 +278,22 @@ div.experience-item {
 
 div.experience-item * {
   text-align: center;
+}
+
+.contact p {
+  width: 50%;
+  text-align: center;
+}
+
+a.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F0F0F0;
+  text-decoration: underline;
+}
+a.link:hover {
+  color: #1d8cee;
 }
 
 /*# sourceMappingURL=main.css.map */
