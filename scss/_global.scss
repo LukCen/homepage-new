@@ -5,6 +5,7 @@ $color-body-bg-light: #5E5E5E;
 
 :root {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 html * {
@@ -26,7 +27,6 @@ body {
   flex-direction: column;
   overflow-x: hidden;
   row-gap: 1.6rem;
-
 }
 
 header {
